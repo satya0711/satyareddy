@@ -5,3 +5,7 @@ steps:
     args: ['push', 'gcr.io/unique-atom-441707-u1/repo-1:latest']
 images:
   - 'gcr.io/unique-atom-441707-u1/repo-1:latest'
+
+
+options:
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
