@@ -3,3 +3,7 @@ RUN pip install flask
 WORKDIR /myapp
 COPY main.py /myapp/main.py
 CMD ["python", "/myapp/main.py"]
+
+
+options:
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
